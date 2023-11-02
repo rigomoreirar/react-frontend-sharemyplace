@@ -1,0 +1,60 @@
+[2023-09-13 21:10:14] - {"id":"2","Username":"test","Name":"test","Password":"123","Authorization":""}
+[2023-09-13 21:10:14] - test
+[2023-09-13 21:10:19] - {"id":"2","Username":"test","Name":"test","Password":"123","Authorization":""}
+[2023-09-13 21:10:19] - test
+[2023-09-13 21:13:55] - {"id":"1","Username":"root","Name":"root","Password":"123","Authorization":"root"}
+[2023-09-13 21:13:55] - root
+[2023-09-13 21:13:58] - {"id":"1","Username":"root","Name":"root","Password":"123","Authorization":"root"}
+[2023-09-13 21:13:58] - root
+[2023-09-13 21:14:02] - {"id":"1","Username":"root","Name":"root","Password":"123","Authorization":"root"}
+[2023-09-13 21:14:02] - root
+[2023-09-13 21:14:07] - {"id":"2","Username":"test","Name":"test","Password":"123","Authorization":""}
+[2023-09-13 21:14:07] - test
+[2023-09-13 21:14:11] - {"id":"2","Username":"test","Name":"test","Password":"123","Authorization":""}
+[2023-09-13 21:14:11] - test
+[2023-09-13 21:20:14] - {"id":"1","Username":"root","Name":"root","Password":"123","Authorization":"edit"}
+[2023-09-13 21:20:14] - root
+[2023-09-13 21:20:17] - {"id":"1","Username":"root","Name":"root","Password":"123","Authorization":"upload"}
+[2023-09-13 21:20:17] - root
+[2023-09-13 21:20:20] - {"id":"2","Username":"test","Name":"test","Password":"123","Authorization":"edit"}
+[2023-09-13 21:20:20] - test
+[2023-09-13 21:20:24] - {"id":"2","Username":"test","Name":"test","Password":"123","Authorization":"upload"}
+[2023-09-13 21:20:24] - test
+[2023-09-13 21:20:28] - {"id":"2","Username":"test","Name":"test","Password":"123","Authorization":"root"}
+[2023-09-13 21:20:28] - test
+[2023-09-15 15:29:29] - {"id":"1","Username":"root","Name":"root","Password":"123","Authorization":"2","Activated":"1"}
+[2023-09-15 15:29:29] - root
+[2023-09-15 15:29:32] - {"id":"1","Username":"root","Name":"root","Password":"123","Authorization":"2","Activated":"1"}
+[2023-09-15 15:29:32] - root
+[2023-09-15 15:29:39] - {"id":"1","Username":"root","Name":"root","Password":"1234","Authorization":"2","Activated":"1"}
+[2023-09-15 15:29:39] - root
+[2023-09-15 15:29:45] - {"id":"1","Username":"root","Name":"root","Password":"1234","Authorization":"2","Activated":"1"}
+[2023-09-15 15:29:45] - root
+[2023-09-15 16:06:24] - {"id":"1","Username":"root","Name":"root","Password":"123","Authorization":"2","Activated":"1"}
+[2023-09-15 16:06:24] - root
+[2023-09-15 18:45:19] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`PACPaymentManagementSystemDB`.`User`, CONSTRAINT `User_ibfk_1` FOREIGN KEY (`PermissionID`) REFERENCES `Permissions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2023-09-15 18:45:51] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`PACPaymentManagementSystemDB`.`User`, CONSTRAINT `User_ibfk_1` FOREIGN KEY (`PermissionID`) REFERENCES `Permissions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2023-09-15 18:51:15] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Username' cannot be null
+[2023-09-15 18:51:36] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Username' cannot be null
+[2023-09-15 18:59:01] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Username' cannot be null
+[2023-09-15 18:59:05] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Username' cannot be null
+[2023-09-15 19:00:20] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Username' cannot be null
+[2023-09-15 19:00:27] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Username' cannot be null
+[2023-09-15 19:02:13] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Username' cannot be null
+[2023-09-15 19:05:36] - PDO Error: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+[2023-09-15 19:05:46] - PDO Error: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+[2023-09-15 19:07:07] - PDO Error: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+[2023-09-17 20:50:34] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`PACPaymentManagementSystemDB`.`User`, CONSTRAINT `User_ibfk_1` FOREIGN KEY (`PermissionID`) REFERENCES `Permissions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2023-09-17 20:51:50] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`PACPaymentManagementSystemDB`.`User`, CONSTRAINT `User_ibfk_1` FOREIGN KEY (`PermissionID`) REFERENCES `Permissions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2023-09-25 12:23:24] - PDO Error: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+[2023-09-25 12:35:41] - PDO Error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'idBankCategory' at row 1
+[2023-09-25 12:35:47] - PDO Error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'idBankCategory' at row 1
+[2023-09-25 12:37:39] - PDO Error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'idBankCategory' at row 1
+[2023-09-25 12:37:49] - PDO Error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'idBankCategory' at row 1
+[2023-09-25 12:39:20] - PDO Error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'idBankCategory' at row 1
+[2023-09-25 12:39:23] - PDO Error: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'idBankCategory' at row 1
+[2023-09-25 12:45:00] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`PACPaymentManagementSystemDB`.`Bank`, CONSTRAINT `Bank_ibfk_1` FOREIGN KEY (`idBankCategory`) REFERENCES `BankCategory` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2023-09-25 12:47:07] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`PACPaymentManagementSystemDB`.`Bank`, CONSTRAINT `Bank_ibfk_1` FOREIGN KEY (`idBankCategory`) REFERENCES `BankCategory` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2023-09-25 12:51:30] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`PACPaymentManagementSystemDB`.`Bank`, CONSTRAINT `Bank_ibfk_1` FOREIGN KEY (`idBankCategory`) REFERENCES `BankCategory` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2023-09-25 12:51:35] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`PACPaymentManagementSystemDB`.`Bank`, CONSTRAINT `Bank_ibfk_1` FOREIGN KEY (`idBankCategory`) REFERENCES `BankCategory` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2023-09-25 12:51:41] - PDO Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`PACPaymentManagementSystemDB`.`Bank`, CONSTRAINT `Bank_ibfk_1` FOREIGN KEY (`idBankCategory`) REFERENCES `BankCategory` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
